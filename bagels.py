@@ -6,7 +6,7 @@
 #Fermi: One digit is correct and in the right position.
 #Bagels: No digit is correct
 #This is project 1 or chapter 1 from "THE BIG BOOK OF SMALL PYHTON PROJECTS"
-#Thank you for using!
+#Thanks for using!
 
 
 from random import randint
@@ -69,8 +69,7 @@ while playing_status == True:
             print("Would you like to play again? (yes or no)")
             player_status = input().lower()
             if player_status == "no":
-                print("Thanks for playing!")
-                print("bluedrummer at github")
+                print("Thanks for playing (bluedrummer at github)")
                 playing_status = False
                 break
             if player_status == "yes":
@@ -82,8 +81,7 @@ while playing_status == True:
             print("Would you like to play again? (yes or no)")
             player_status = input().lower()
             if player_status == "no":
-                print("Thanks for playing!")
-                print("bluedrummer at github")
+                print("Thanks for playing (bluedrummer at github)")
                 playing_status = False
                 break
             if player_status == "yes":

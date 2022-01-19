@@ -2,7 +2,7 @@
 #This works with Python3
 #What does this program do?: This program performs several probability experimints to determine the percentages of people who have the same birthday in N sized group
 #This is project 2 or chapter 2 from "THE BIG BOOK OF SMALL PYHTON PROJECTS"
-#Thank you for using!
+#Thanks for using!
 import datetime, random
 print("Birthday Paradox, by bledrummer or https://github.com/bluedrummer")
 print("Explore the surprising probabilities of the Birthday Paradox")
