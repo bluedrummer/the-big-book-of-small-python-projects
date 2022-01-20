@@ -2,7 +2,7 @@
 i havent finished the book yet.
 These projects are from a book called The big book of small python projects.
 There are diffrent types of projects from games to solving problems.
-Here is the link to the book if you wwant to check it out!
+Here is the link to the book if you want to check it out!
 
 - [Book](https://nostarch.com/big-book-small-python-projects)
 
