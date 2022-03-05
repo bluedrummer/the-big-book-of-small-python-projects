@@ -32,8 +32,8 @@ while True:
             pot = int(pot)
             break
 
-    dice1 = random.randint(0, 6)
-    dice2 = random.randint(0, 6)
+    dice1 = random.randint(1, 6)
+    dice2 = random.randint(1, 6)
 
     print("The dealer swirls the cup and you hear the the dice rattle.")
     print("The dealer slams the cup on the floor")
@@ -52,14 +52,19 @@ while True:
     print("The dealer lifts the cup to reveal")
     print(f"{dice1} - {dice2}")
 
-    rollIsEven = (dice1 + dice2) % 2 == 0
+    total_number = dice1 + dice2
 
-    if rollIsEven:
+    if (total_number % 2) == 0:
         correctBet = "CHO"
     else:
         correctBet = "HAN"
 
-    playerWon = bet = correctBet
+    if bet == "CHO" and correctBet == "CHO":
+        playerWon = True
+    elif bet == "HAN" and correctBet == "HAN":
+        playerWon = True
+    else:
+        playerWon = False
 
     if playerWon:
         print(f"You Won! You Take {pot} mon.")
