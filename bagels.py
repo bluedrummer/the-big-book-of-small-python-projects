@@ -1,14 +1,3 @@
-#Hello thank you for using my program
-#This works with Python3
-#What does this program do?: This is a deductive logic game
-#What is the game rules: The program creates a random 3 digit number try to guess what it is here are some hints!
-#Pico: One digit is correct but in the wrong position.
-#Fermi: One digit is correct and in the right position.
-#Bagels: No digit is correct
-#This is project 1 or chapter 1 from "THE BIG BOOK OF SMALL PYHTON PROJECTS"
-#Thanks for using!
-
-
 from random import randint
 print("Bagels, a deductive logic game.")
 print("By bluedrummer  or https://github.com/bluedrummer")
